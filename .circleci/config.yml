@@ -48,7 +48,6 @@ aliases:
         unzip BrowserStackLocal-linux-x64.zip
         # Run the file with user's access key
         ./BrowserStackLocal ${BROWSERSTACK_ACCESS_KEY} &
-
   - &unit_test_steps
     - checkout
     - restore_cache: *restore_dep_cache
